@@ -143,6 +143,7 @@ body {
   color: var(--primary-black-color);
   text-decoration: none;
   list-style: none;
+  text-transform: capitalize;
 }
 
 .unsere-servisen h3{
