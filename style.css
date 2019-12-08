@@ -143,8 +143,12 @@ body {
   color: var(--primary-black-color);
   text-decoration: none;
   list-style: none;
-  text-align: center;
 }
+
+.unsere-servisen h3{
+  text-align: center; 
+}
+
 
 p{
   font-family: "RobotoSlab-Regular";
@@ -214,7 +218,7 @@ p{
 
 .form-name input,
 .form-message textarea {
-  width: 455px;
+  width: 415px;
   border-style: none;
   border-radius: 2px;
 }
@@ -231,8 +235,11 @@ p{
   align-items: center;
 }
 
+ul{
+  padding: 0;
+}
 
-.form-message textarea {
+.form .form-message textarea {
   height: 195px;
   padding-top: 18px;
 }
