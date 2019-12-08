@@ -231,14 +231,10 @@ p{
   align-items: center;
 }
 
-.form-message{
-  padding-right: 230px;
-}
 
 .form-message textarea {
   height: 195px;
   padding-top: 18px;
-
 }
 
 .form-name input::placeholder,
