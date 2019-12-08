@@ -131,7 +131,6 @@ body {
 .unsere-servisen {
   display: flex;
   width: 290px;
-  height: 225px;
   font-size: 14px;
   color: var(--primary-grey-color);
   margin-bottom: 50px;
@@ -184,7 +183,6 @@ p{
 .thema {
   background: url(img/Map.png) right no-repeat, #222222;
   height: 675px;
-  width: 100%;
 }
 
 .title-about-us span {
@@ -231,12 +229,16 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 230px;
+}
+
+.form-message{
+  padding-right: 230px;
 }
 
 .form-message textarea {
   height: 195px;
-  margin-right: 230px;
+  padding-top: 18px;
+
 }
 
 .form-name input::placeholder,
@@ -254,11 +256,6 @@ p{
   color: var(--primary-grey-color);
   padding: 0 20px;
 }
-
-.form-message textarea {
-  padding-top: 18px;
-}
-
 
 .button {
   width: 240px;
@@ -280,5 +277,4 @@ input[type="submit"] {
   outline: none;
   cursor: pointer;
   height: 65px;
-  color: #;
 }
